@@ -176,7 +176,8 @@ def launcher(
 
 def cli_launcher():
     if "version" in sys.argv or "--version" in sys.argv:
-        return f"HumanReadableSeed version: {HumanReadableSeed.__VERSION__}"
+        print(f"HumanReadableSeed version: {HumanReadableSeed.__VERSION__}")
+        sys.exit(0)
 
     import fire
     try:
