@@ -15,7 +15,7 @@ class HumanReadableSeed:
     The chunk size used for conversion can be set manually or computed automatically
     based on the size of the wordlist.
     """
-    __VERSION__: str = "0.0.4"
+    __VERSION__: str = "0.0.5"
 
     def __init__(self, chunk_size: Optional[int] = None, wordlist: Union[str, List[str]] = 'nltk', verbose: bool = False) -> None:
         self.verbose = verbose
