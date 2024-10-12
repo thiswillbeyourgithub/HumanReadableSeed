@@ -1,5 +1,3 @@
-import sys
-from typing import Union, List
 
 from .HumanReadableSeed import HumanReadableSeed
 

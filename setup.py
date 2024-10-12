@@ -23,6 +23,11 @@ setup(
     keywords=["seeds", "crypto", "bitcoin", "bip39", "readable", "seed", "wordlist", "nltk", "onetime", "pad", "token", "mnemonic"],
     python_requires=">=3.11",
 
+    entry_points={
+        'console_scripts': [
+            'HumanReadableSeed=HumanReadableSeed.__init__:cli_launcher',
+        ],
+    },
 
     install_requires=[
         'nltk',
