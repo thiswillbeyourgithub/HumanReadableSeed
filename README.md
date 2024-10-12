@@ -1,6 +1,6 @@
 # HumanReadableSeed
 
-HumanReadableSeed is a Python library that converts cryptographic seeds or tokens into human-readable words and vice versa. It was originally developed to work with [edgevpn](https://github.com/mudler/edgevpn/), a minimalist VPN software that cleverly stores its config as a base64 token string, as mentionned in [this issue](https://github.com/mudler/edgevpn/issues/544).
+HumanReadableSeed is a Python library that converts cryptographic seeds or tokens into human-readable words and vice versa. It was originally developed to work with [edgevpn](https://github.com/mudler/edgevpn/), a minimalist VPN software that cleverly stores its config as a base64 token string, as mentionned in [this issue](https://github.com/mudler/edgevpn/issues/544) which resulted in [this gist](https://gist.github.com/thiswillbeyourgithub/53befc8223f37aa929b35c6ebf8e6365).
 
 ## Why
 
