@@ -33,8 +33,8 @@ class HumanReadableSeed:
         else:
             self.wordlist = list(set(wordlist))
         
-        # Filter out non-ASCII words
-        self.wordlist = [word for word in self.wordlist if all(ord(char) < 128 for char in word)]
+        # Filter out non-ASCII words and capitalize
+        self.wordlist = [word.title() for word in self.wordlist if all(ord(char) < 128 for char in word)]
         
         # Sort the wordlist and remove duplicates
         self.wordlist = sorted(set(self.wordlist))
@@ -117,6 +117,9 @@ class HumanReadableSeed:
         
         # Assert that we have at least 2 words (padding length + at least one data word)
         assert len(words) >= 2, "Input must contain at least 2 words"
+
+        # capitalize like in init
+        words = [w.title() for w in words]
         
         # Check that all words are in the wordlist
         for word in words:
