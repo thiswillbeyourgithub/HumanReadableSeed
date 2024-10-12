@@ -6,7 +6,7 @@ with open("README.md", "r") as readme:
 
 setup(
     name="HumanReadableSeed",
-    version="0.0.2",
+    version="0.0.4",
     description="Reversible conversion between seeds and human readable words",
     long_description=long_description,
     long_description_content_type="text/markdown",
