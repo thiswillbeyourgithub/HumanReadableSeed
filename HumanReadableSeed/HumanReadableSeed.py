@@ -173,7 +173,7 @@ def cli_launcher():
     if "version" in sys.argv or "--version" in sys.argv:
         return f"HumanReadableSeed version: {HumanReadableSeed.__VERSION__}"
     if len(sys.argv) < 3:
-        print("Usage: python -m HumanReadableSeed [toseed|toread] <input_data> [--verbose]")
+        print("Usage: HumanReadableSeed [toseed|toread] <input_data> [--verbose]\nOr likewise with python -m HumanReadableSeed")
         sys.exit(1)
 
     action = sys.argv[1]
