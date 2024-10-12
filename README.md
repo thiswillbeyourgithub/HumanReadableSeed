@@ -4,7 +4,7 @@ HumanReadableSeed is a Python library that converts cryptographic seeds or token
 
 ## Why
 
-When working with cryptographic seeds or tokens, it's often challenging to share, check or communicate them accurately due to their complex nature. HumanReadableSeed solves this problem by converting these tokens into a sequence of easily readable words. This makes it much easier to share configurations or seeds verbally or in writing, reducing the chance of errors.
+When working with cryptographic seeds or tokens, it's often challenging to share, check or communicate them accurately due to their complex nature. HumanReadableSeed solves this problem by converting these tokens into a sequence of easily readable words. This makes it much easier to share configurations or seeds verbally or in writing, reducing the chance of errors. This is somewhat reminiscent of BIP39 used in cryptocurrencies, but actually BIP39 is not reversible in the same way and no simple to use libraries seemed available for that.
 
 ## Features
 
