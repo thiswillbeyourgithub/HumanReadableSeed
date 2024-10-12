@@ -138,7 +138,7 @@ This project is licensed under the GNU GPL v3 License - see the [LICENSE.md](LIC
 
 ## Development
 
-HumanReadableSeed was primarily developed using [aider](https://aider.chat/), an AI-powered coding assistant. This tool significantly contributed to the efficient creation and refinement of the codebase and documentation.
+HumanReadableSeed was primarily developed using [aider](https://aider.chat/), an AI-powered coding assistant. This tool significantly contributed to the efficient creation and refinement of the codebase and documentation. My other tool, [BrownieCutter](https://pypi.org/project/BrownieCutter/) was used to quickly create a package.
 
 ### Testing
 
