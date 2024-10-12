@@ -1,6 +1,5 @@
 
 from setuptools import setup, find_packages
-from setuptools.command.install import install
 
 with open("README.md", "r") as readme:
     long_description = readme.read()

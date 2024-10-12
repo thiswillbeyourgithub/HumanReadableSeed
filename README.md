@@ -112,20 +112,24 @@ You can also use HumanReadableSeed directly from the command line:
    ```
    python -m HumanReadableSeed toread "your_token_here"
    ```
+   Or alternatively:
+   ```
+   HumanReadableSeed toread "your_token_here"
+   ```
 
 2. To convert human-readable words back to a seed:
    ```
-   python -m HumanReadableSeed toseed "word1 word2 word3 ..."
+   HumanReadableSeed toseed "word1 word2 word3 ..."
    ```
 
 3. To enable verbose mode, add the `--verbose` flag:
    ```
-   python -m HumanReadableSeed toread "your_token_here" --verbose
+   HumanReadableSeed toread "your_token_here" --verbose
    ```
 
 4. To check the version:
    ```
-   python -m HumanReadableSeed --version
+   HumanReadableSeed --version
    ```
 
 ## Contributing
