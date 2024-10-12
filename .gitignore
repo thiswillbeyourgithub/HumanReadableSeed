@@ -5,3 +5,5 @@
 
 TODO_gitignore
 .aider*
+build
+dist
