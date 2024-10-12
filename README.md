@@ -11,7 +11,7 @@ When working with cryptographic seeds or tokens, it's often challenging to share
 - Convert cryptographic seeds or tokens into human-readable words
 - Convert human-readable words back into the original seed or token
 - Customizable wordlist (default uses NLTK words corpus, which after ascii filtering and deduplicationg is about 200 000 words long)
-- No dependencies except NLTK if used.
+- No dependencies except `fire` to launch the cli and `nltk` for the wordlist if used.
 - Automatic or manual chunk size selection for conversion
 - Built-in error checking and verbose mode for debugging
 

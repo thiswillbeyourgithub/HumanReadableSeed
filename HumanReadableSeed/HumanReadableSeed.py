@@ -160,6 +160,8 @@ def launcher(
         input_data: Union[str, List[str]],
         verbose: bool = False
     ) -> str:
+    """Usage: HumanReadableSeed [toseed|toread] "<input_data>" [--verbose]
+    Or likewise with python -m HumanReadableSeed"""
     hrs = HumanReadableSeed(verbose=verbose)
     
     if action == "toseed":
@@ -175,17 +177,10 @@ def launcher(
 def cli_launcher():
     if "version" in sys.argv or "--version" in sys.argv:
         return f"HumanReadableSeed version: {HumanReadableSeed.__VERSION__}"
-    if len(sys.argv) < 3:
-        print("Usage: HumanReadableSeed [toseed|toread] <input_data> [--verbose]\nOr likewise with python -m HumanReadableSeed")
-        sys.exit(1)
 
-    action = sys.argv[1]
-    input_data = sys.argv[2]
-    verbose = "--verbose" in sys.argv
-
+    import fire
     try:
-        result = launcher(action, input_data, verbose)
-        print(result)
+        fire.Fire(launcher)
     except ValueError as e:
         print(f"Error: {e}")
         sys.exit(1)
