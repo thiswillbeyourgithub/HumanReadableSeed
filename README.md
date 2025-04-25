@@ -6,7 +6,7 @@ HumanReadableSeed is a Python library that converts cryptographic seeds or token
 
 When working with cryptographic seeds or tokens, it's often challenging to share, check or communicate them accurately due to their complex nature. HumanReadableSeed solves this problem by converting these tokens into a sequence of easily readable words. This makes it much easier to share configurations or seeds verbally or in writing, reducing the chance of errors. This is somewhat reminiscent of BIP39 used in cryptocurrencies, but actually BIP39 is not reversible in the same way and no simple to use libraries seemed available for that.
 
-HumanReadableSeed is also used in [wormrot.sh](https://github.com/thiswillbeyourgithub/wormrot), a minimal script to send multiple files using magic-wormhole with time based codes, and [fowlrot](https://github.com/thiswillbeyourgithub/fowlrot), a similar tool for folders.
+HumanReadableSeed is also used in [wormrot.sh](https://github.com/thiswillbeyourgithub/wormrot), a minimal script to send multiple files using magic-wormhole with time based codes, [fowlrot](https://github.com/thiswillbeyourgithub/fowlrot), a similar tool for folders, and [knockd_rotator](https://github.com/thiswillbeyourgithub/knockd_rotator), a tool to rotate knockd sequences.
 
 ## Features
 
