@@ -141,7 +141,7 @@ Contributions to HumanReadableSeed are welcome! Please feel free to submit a Pul
 
 ## License
 
-This project is licensed under the GNU AGPL v3 License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the AGPLv3 - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Development
 
